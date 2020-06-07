@@ -246,3 +246,114 @@ animation-timing-function: ease-in;
   100% {background-color:#a8df65; left:250px; bottom: 60px;}/*37*/
 
 }
+@keyframes example-1m {
+  0%   {background-color:#a8df65; left:420px;bottom: 60px;} /*53*/
+  20%  {background-color:#edf492; left:730px; bottom: 60px;}/*98*/
+  35%  {background-color:#efb960; left:1250px;bottom: 60px;}/*183*/
+  45%  {background-color:#ee91bc; left:250px; bottom: 60px;}/*37*/
+  55% {background-color :#a8df65; left:860px; bottom: 60px;}/*122*/
+  65%  {background-color:#edf492; left:150px; bottom: 60px;}/*14*/
+  75%  {background-color:#efb960; left:1100px;bottom: 60px;}/*124*/
+  85%  {background-color:#ee91bc; left:500px; bottom: 60px;}/*65*/
+  100% {background-color:#a8df65; left:650px; bottom: 60px;}/*67*/
+
+}
+
+@keyframes example-2m {
+  0%   {background-color:#a8df65; left:420px; bottom: 60px;} /*53*/
+  20%  {background-color:#edf492; left:500px; bottom: 60px;}/*65*/
+  35%  {background-color:#efb960; left:650px; bottom: 60px;}/*67*/
+  45%  {background-color:#ee91bc; left:250px; bottom: 60px;}/*37*/
+  55% {background-color :#a8df65; left:150px; bottom: 60px;}/*14*/
+  65%  {background-color:#edf492; left:730px; bottom: 60px;}/*98*/
+  75%  {background-color:#efb960; left:860px;bottom: 60px;}/*122*/
+  85%  {background-color:#ee91bc; left:1100px; bottom: 60px;}/*124*/
+  100% {background-color:#a8df65; left:1250px; bottom: 60px;}/*183*/
+
+}
+@keyframes example-3m {
+  0%   {background-color:#a8df65; left:420px; bottom: 60px;} /*53*/
+  20%  {background-color:#edf492; left:250px; bottom: 60px;}/*37*/
+  35%  {background-color:#efb960; left:150px; bottom: 60px;}/*14*/
+  45%  {background-color:#ee91bc; left:500px; bottom: 60px;}/*65*/
+  55% {background-color :#a8df65; left:650px; bottom: 60px;}/*67*/
+  65%  {background-color:#edf492; left:730px; bottom: 60px;}/*98*/
+  75%  {background-color:#efb960; left:860px;bottom: 60px;}/*122*/
+  85%  {background-color:#ee91bc; left:1100px; bottom: 60px;}/*124*/
+  100% {background-color:#a8df65; left:1250px; bottom: 60px;}/*183*/
+
+}
+@keyframes example-4m {
+  0%   {background-color:#a8df65; left:420px; bottom: 60px;} /*53*/
+  20%  {background-color:#edf492; left:500px; bottom: 60px;}/*65*/
+  35%  {background-color:#efb960; left:650px; bottom: 60px;}/*67*/
+  45%  {background-color:#ee91bc; left:730px; bottom: 60px;}/*98*/
+  55% {background-color :#a8df65; left:860px; bottom: 60px;}/*122*/
+  65%  {background-color:#edf492; left:1100px; bottom: 60px;}/*124*/
+  75%  {background-color:#efb960; left:1250px;bottom: 60px;}/*183*/
+  85%  {background-color:#ee91bc; left:250px; bottom: 60px;}/*37*/
+  100% {background-color:#a8df65; left:150px; bottom: 60px;}/*14*/
+
+}
+@keyframes example-5m {
+  0%   {background-color:#a8df65; left:420px; bottom: 60px;} /*53*/
+  20%  {background-color:#edf492; left:250px; bottom: 60px;}/*37*/
+  35%  {background-color:#efb960; left:150px; bottom: 60px;}/*14*/
+  45%  {background-color:#ee91bc; left:1250px; bottom: 60px;}/*183*/
+  55% {background-color :#a8df65; left:1100px; bottom: 60px;}/*124*/
+  65%  {background-color:#edf492; left:860px; bottom: 60px;}/*122*/
+  75%  {background-color:#efb960; left:730px;bottom: 60px;}/*98*/
+  85%  {background-color:#ee91bc; left:650px; bottom: 60px;}/*67*/
+  100% {background-color:#a8df65; left:500px; bottom: 60px;}/*65*/
+
+}
+@keyframes example-6m {
+  0%   {background-color:#a8df65; left:420px; bottom: 60px;} /*53*/
+  20%  {background-color:#edf492; left:500px; bottom: 60px;}/*65*/
+  35%  {background-color:#efb960; left:650px; bottom: 60px;}/*67*/
+  45%  {background-color:#ee91bc; left:730px; bottom: 60px;}/*98*/
+  55% {background-color :#a8df65; left:860px; bottom: 60px;}/*122*/
+  65%  {background-color:#edf492; left:1100px; bottom: 60px;}/*124*/
+  75%  {background-color:#efb960; left:1250px;bottom: 60px;}/*183*/
+  85%  {background-color:#ee91bc; left:150px; bottom: 60px;}/*14*/
+  100% {background-color:#a8df65; left:250px; bottom: 60px;}/*37*/
+
+}
+@media (max-width: 1500px) {
+  #move1{
+    animation: example-1m 30s infinite;
+    animation-play-state: paused;
+    animation-timing-function: ease-in;
+
+  }
+  #move2{
+    animation: example-2m 30s infinite;
+    animation-play-state: paused;
+    animation-timing-function: ease-in;
+
+  }
+  #move3{
+    animation: example-3m 30s infinite;
+    animation-play-state: paused;
+    animation-timing-function: ease-in;
+
+  }
+  #move4{
+    animation: example-4m 30s infinite;
+    animation-play-state: paused;
+    animation-timing-function: ease-in;
+
+  }
+  #move5{
+    animation: example-5m 30s infinite;
+    animation-play-state: paused;
+    animation-timing-function: ease-in;
+
+  }
+  #move6{
+    animation: example-6m 30s infinite;
+    animation-play-state: paused;
+    animation-timing-function: ease-in;
+
+  }
+}
